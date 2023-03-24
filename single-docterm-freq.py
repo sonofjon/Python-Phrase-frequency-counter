@@ -10,7 +10,7 @@ import collections
 from collections import Counter
 
 frequency = {}
-document_text = open('YOURDIRECTORY/YOURFILE', 'r')
+document_text = open('/home/andreas/projects/nltk-stuff/nltk_data/corpora/genesis/english-web.txt', 'r')
 text_string = document_text.read().lower()
 match_pattern = re.findall(r'\b[a-z]{3,15}\b', text_string)
 
